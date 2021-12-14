@@ -35,10 +35,6 @@ public class Gaynder extends Application {
     private static final String ONESIGNAL_APP_ID = "eee119bc-c431-4a36-a82e-c0bfbaeffb12";
     String TAG = "Gaynder";
     SPUtils spUtils;
-    Tracker tracker;
-
-    RudderClient rudderClient;
-    KochavaIntegrationFactory kochavaIntegrationFactory;
     String GUID ;
 
     private static final String KOCHAVA_KEY = "Kochava";
@@ -119,7 +115,7 @@ public class Gaynder extends Application {
 
 
         Tracker.configure(new Tracker.Configuration(getApplicationContext())
-                .setAppGuid("kogaynder-2-qqx1wrphq")
+                .setAppGuid("koxmilfys-ndqzqq8")
                 .setLogLevel(Tracker.LOG_LEVEL_ERROR)
                 .setAttributionUpdateListener(new AttributionUpdateListener() {
                     @Override
